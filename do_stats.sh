@@ -3,5 +3,5 @@ for file in "$@"
 do 
   echo ${file}
   bash goostats ${file} stats-${file}
-  echo --> new file created stats-${file}
+  echo "new file created stats-${file}"
 done
