@@ -4,4 +4,5 @@ do
   echo ${file}
   bash goostats ${file} stats-${file}
   echo "new file created stats-${file}"
+  echo "Hello"
 done
