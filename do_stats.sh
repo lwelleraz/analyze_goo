@@ -1,5 +1,5 @@
 # Runs goostats on a list of files
-for file in "$@" 
+for file in *[AB].txt 
 do 
   echo ${file}
   bash goostats ${file} stats-${file}
