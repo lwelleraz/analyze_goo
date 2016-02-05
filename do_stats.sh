@@ -6,3 +6,4 @@ do
   echo "new file created stats-${file}"
   echo "Hello"
 done
+# Jeff made a comment here!
